@@ -4,7 +4,7 @@ and Aman Dixit. The system utilizes movie data from the MovieLens dataset to pro
 personalized movie recommendations to users based on their preferences. The project
 consists of a Flask web application that allows users to input their userID, which then fetches
 and displays relevant movie recommendations.
-File Structure:
+<h6>File Structure:</h6>
 RECOM
 │ app.py
 │ average_merged_movies.csv
