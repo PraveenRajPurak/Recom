@@ -1,56 +1,60 @@
-Overview:
-Recom is a recommendation system for movies developed by Praveen Raj, Sarthak Chawla,
-and Aman Dixit. The system utilizes movie data from the MovieLens dataset to provide
-personalized movie recommendations to users based on their preferences. The project
-consists of a Flask web application that allows users to input their userID, which then fetches
-and displays relevant movie recommendations.
-<h6>File Structure:</h6>
+<h1>Recom</h1>
+<p>Recom is a recommendation system for movies developed by Praveen Raj, Sarthak Chawla, and Aman Dixit. The system utilizes movie data from the MovieLens dataset to provide personalized movie recommendations to users based on their preferences. The project consists of a Flask web application that allows users to input their userID, which then fetches and displays relevant movie recommendations.</p>
+<h2>File Structure:</h2>
+<pre>
 RECOM
-│ app.py
-│ average_merged_movies.csv
-│ sorted_movies_by_rating.csv
-│ user_favorite_genres_and_movies.csv
+│   app.py
+│   average_merged_movies.csv
+│   sorted_movies_by_rating.csv
+│   user_favorite_genres_and_movies.csv   
 │
 └───__pycache__
 │
 └───assets
 │
 └───static
-│ │ style.css
-│ │ styles2.css
+│   │   style.css
+│   │   styles2.css 
 │
-│ index.html
-│ results.html
+│   index.html 
+│   results.html  
 │
-└───venv
-File Descriptions:
-● app.py: The main Python script containing the Flask application logic.
-● average_merged_movies.csv: A CSV file containing the average rating of all movies.
-● sorted_movies_by_rating.csv: A CSV file containing movies sorted by rating in
-descending order.
-● user_favorite_genres_and_movies.csv: A CSV file containing genre-specific movies
-highly rated by the user.
-● index.html: HTML file for the user interface where the user inputs their userID.
-● results.html: HTML file for displaying the movie recommendations to the user.
-● static: Directory containing static files such as CSS stylesheets.
-● venv: Directory containing the Python virtual environment.
-How to Run the Project:
-● Extract the contents of the recom-main.zip file to a directory on your system.
-● Ensure that Flask is installed on your system. If not, install Flask using pip:
-○ pip install flask
-● Open a terminal or command prompt and navigate to the directory where the project
-files are extracted.
-● Activate the Python virtual environment (if not already activated):
-○ source venv/bin/activate
-○ or
-○ venv\Scripts\activate
-● Run the Flask application by executing the app.py script:
-○ python app.py
-● Once the Flask application is running, open a web browser and go to
-http://localhost:5000 to access the application.
-● Enter your userID in the provided input field on the index page and submit the form.
-● The application will fetch and display personalized movie recommendations based on
-your preferences on the results page.
-● Note: Ensure that all CSV files (average_merged_movies.csv,
-sorted_movies_by_rating.csv, user_favorite_genres_and_movies.csv) are present in
-the same directory as app.py for the application to function correctly
+└───venv 
+</pre>
+<h2>File Descriptions:</h2>
+<ul>
+  <li><code>app.py</code>: The main Python script containing the Flask application logic.</li>
+  <li><code>average_merged_movies.csv</code>: A CSV file containing the average rating of all movies.</li>
+  <li><code>sorted_movies_by_rating.csv</code>: A CSV file containing movies sorted by rating in descending order.</li>
+  <li><code>user_favorite_genres_and_movies.csv</code>: A CSV file containing genre-specific movies highly rated by the user.</li>
+  <li><code>index.html</code>: HTML file for the user interface where the user inputs their userID.</li>
+  <li><code>results.html</code>: HTML file for displaying the movie recommendations to the user.</li>
+  <li><code>static</code>: Directory containing static files such as CSS stylesheets.</li>
+  <li><code>venv</code>: Directory containing the Python virtual environment.</li>
+</ul>
+<h2>How to Run the Project:</h2>
+<ol>
+  <li>Extract the contents of the Recom.zip file to a directory on your system.</li>
+  <li>Ensure that Flask is installed on your system. If not, install Flask using pip:
+    <pre>pip install flask</pre>
+  </li>
+  <li>Open a terminal or command prompt and navigate to the directory where the project files are extracted.</li>
+  <li>Activate the Python virtual environment (if not already activated):
+    <pre>source venv/bin/activate</pre>
+    or
+    <pre>venv\Scripts\activate</pre>
+  </li>
+  <li>Run the Flask application by executing the <code>app.py</code> script:
+    <pre>python app.py</pre>
+  </li>
+  <li>Once the Flask application is running, open a web browser and go to <code>http://localhost:5000</code> to access the application.</li>
+  <li>Enter your userID in the provided input field on the index page and submit the form.</li>
+  <li>The application will fetch and display personalized movie recommendations based on your preferences on the results page.</li>
+</ol>
+<p><strong>Note:</strong> Ensure that all CSV files (<code>average_merged_movies.csv</code>, <code>sorted_movies_by_rating.csv</code>, <code>user_favorite_genres_and_movies.csv</code>) are present in the same directory as <code>app.py</code> for the application to function correctly.</p>
+<h2>Project Contributors:</h2>
+<ul>
+  <li>Praveen Raj</li>
+  <li>Sarthak Chawla</li>
+  <li>Aman Dixit</li>
+</ul>
